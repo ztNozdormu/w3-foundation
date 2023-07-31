@@ -1,7 +1,7 @@
-package com.knd.server.config;
+package com.w3.server.config;
 
 import com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties;
-import com.knd.framework.filter.DruidAdRemoveFilter;
+import com.w3.framework.filter.DruidAdRemoveFilter;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

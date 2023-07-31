@@ -1,4 +1,0 @@
-com.knd.framework.apilog.config.ImageApiLogAutoConfiguration
-com.knd.framework.jackson.config.ImageJacksonAutoConfiguration
-com.knd.framework.web.config.ImageWebAutoConfiguration
-com.knd.framework.xss.config.ImageXssAutoConfiguration

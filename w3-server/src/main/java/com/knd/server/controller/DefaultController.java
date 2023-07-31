@@ -1,10 +1,10 @@
-package com.knd.server.controller;
+package com.w3.server.controller;
 
-import com.knd.framework.common.pojo.CommonResult;
+import com.w3.framework.common.pojo.CommonResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import static com.knd.framework.common.exception.enums.GlobalErrorCodeConstants.NOT_IMPLEMENTED;
+import static com.w3.framework.common.exception.enums.GlobalErrorCodeConstants.NOT_IMPLEMENTED;
 
 
 /**

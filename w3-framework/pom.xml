@@ -3,40 +3,40 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.knd</groupId>
-        <artifactId>knd-foundation</artifactId>
+        <groupId>com.w3</groupId>
+        <artifactId>w3-foundation</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>knd-framework</artifactId>
+    <artifactId>w3-framework</artifactId>
     <name>${project.artifactId}</name>
     <packaging>pom</packaging>
     <description>knd 基础框架组件模块</description>
 
     <modules>
-        <module>knd-spring-boot-starter-common</module>
-        <module>knd-spring-boot-starter-web</module>
-        <module>knd-spring-boot-starter-test</module>
-        <module>knd-spring-boot-starter-biz-dict</module>
-        <module>knd-spring-boot-starter-biz-operatelog</module>
-        <module>knd-spring-boot-starter-excel</module>
-        <module>knd-spring-boot-starter-mybatis</module>
-        <module>knd-spring-boot-starter-security</module>
-        <module>knd-spring-boot-starter-biz-data-permission</module>
-        <module>knd-spring-boot-starter-biz-tenant</module>
-        <module>knd-spring-boot-starter-file</module>
-        <module>knd-spring-boot-starter-job</module>
-        <module>knd-spring-boot-starter-mq</module>
-        <module>knd-spring-boot-starter-ehcache</module>
-        <module>knd-spring-boot-starter-redis</module>
-        <module>knd-spring-boot-starter-biz-sms</module>
-        <module>knd-spring-boot-starter-biz-social</module>
-        <module>knd-spring-boot-starter-captcha</module>
-        <module>knd-spring-boot-starter-monitor</module>
-        <module>knd-spring-boot-starter-biz-ip</module>
-        <module>knd-spring-boot-starter-protection</module>
-        <module>knd-spring-boot-starter-websocket</module>
-        <module>knd-spring-boot-starter-codegen</module>
+        <module>w3-spring-boot-starter-common</module>
+        <module>w3-spring-boot-starter-web</module>
+        <module>w3-spring-boot-starter-test</module>
+        <module>w3-spring-boot-starter-biz-dict</module>
+        <module>w3-spring-boot-starter-biz-operatelog</module>
+        <module>w3-spring-boot-starter-excel</module>
+        <module>w3-spring-boot-starter-mybatis</module>
+        <module>w3-spring-boot-starter-security</module>
+        <module>w3-spring-boot-starter-biz-data-permission</module>
+        <module>w3-spring-boot-starter-biz-tenant</module>
+        <module>w3-spring-boot-starter-file</module>
+        <module>w3-spring-boot-starter-job</module>
+        <module>w3-spring-boot-starter-mq</module>
+        <module>w3-spring-boot-starter-ehcache</module>
+        <module>w3-spring-boot-starter-redis</module>
+        <module>w3-spring-boot-starter-biz-sms</module>
+        <module>w3-spring-boot-starter-biz-social</module>
+        <module>w3-spring-boot-starter-captcha</module>
+        <module>w3-spring-boot-starter-monitor</module>
+        <module>w3-spring-boot-starter-biz-ip</module>
+        <module>w3-spring-boot-starter-protection</module>
+        <module>w3-spring-boot-starter-websocket</module>
+        <module>w3-spring-boot-starter-codegen</module>
     </modules>
 
 

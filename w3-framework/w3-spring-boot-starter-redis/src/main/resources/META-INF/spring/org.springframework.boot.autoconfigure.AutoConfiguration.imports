@@ -1,0 +1,2 @@
+com.w3.framework.redis.config.ImageRedisAutoConfiguration
+com.w3.framework.redis.config.ImageCacheAutoConfiguration

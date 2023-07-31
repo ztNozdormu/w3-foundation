@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.knd</groupId>
-        <artifactId>knd-foundation</artifactId>
+        <groupId>com.w3</groupId>
+        <artifactId>w3-foundation</artifactId>
         <version>${revision}</version>
     </parent>
-    <artifactId>knd-module-infra</artifactId>
+    <artifactId>w3-module-infra</artifactId>
     <name>${project.artifactId}</name>
     <packaging>pom</packaging>
 
@@ -18,9 +18,8 @@
     </description>
 
     <modules>
-        <module>knd-module-infra-api</module>
-        <module>knd-module-infra-impl</module>
-        <module>knd-module-infra-impl-single</module>
+        <module>w3-module-infra-api</module>
+        <module>w3-module-infra-impl</module>
     </modules>
 
 </project>

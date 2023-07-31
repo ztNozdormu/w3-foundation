@@ -1,9 +1,9 @@
-package com.knd.server;
+package com.w3.server;
 
 import cn.hutool.core.io.FileTypeUtil;
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.StrUtil;
-import com.knd.framework.common.util.collection.SetUtils;
+import com.w3.framework.common.util.collection.SetUtils;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.File;
@@ -27,7 +27,7 @@ public class ProjectReactor {
 
     private static final String GROUP_ID = "cn.iocoder.boot";
     private static final String ARTIFACT_ID = "yudao";
-    private static final String PACKAGE_NAME = "com.knd";
+    private static final String PACKAGE_NAME = "com.w3";
     private static final String TITLE = "芋道管理系统";
 
     /**

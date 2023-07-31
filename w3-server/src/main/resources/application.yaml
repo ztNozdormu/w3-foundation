@@ -92,7 +92,7 @@ aj:
 knd:
   info:
     version: 1.0.0
-    base-package: com.knd
+    base-package: com.w3
   web:
     admin-ui:
       url: http://127.0.0.1 #http://dashboard.knd.iocoder.cn # Admin 管理后台 UI 的地址
@@ -112,12 +112,12 @@ knd:
     front-type: 10 # 前端模版的类型，参见 CodegenFrontTypeEnum 枚举类
   error-code: # 错误码相关配置项
     constants-class-list:
-      - com.knd.module.bpm.enums.ErrorCodeConstants
-      - com.knd.module.infra.enums.ErrorCodeConstants
-      - com.knd.module.member.enums.ErrorCodeConstants
-      - com.knd.module.pay.enums.ErrorCodeConstants
-      - com.knd.module.system.enums.ErrorCodeConstants
-      - com.knd.module.mp.enums.ErrorCodeConstants
+      - com.w3.module.bpm.enums.ErrorCodeConstants
+      - com.w3.module.infra.enums.ErrorCodeConstants
+      - com.w3.module.member.enums.ErrorCodeConstants
+      - com.w3.module.pay.enums.ErrorCodeConstants
+      - com.w3.module.system.enums.ErrorCodeConstants
+      - com.w3.module.mp.enums.ErrorCodeConstants
   tenant: # 多租户相关配置项
     enable: true
     ignore-urls:

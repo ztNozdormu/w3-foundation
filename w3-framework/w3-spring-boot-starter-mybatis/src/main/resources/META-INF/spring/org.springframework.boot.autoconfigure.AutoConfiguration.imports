@@ -1,0 +1,2 @@
+com.w3.framework.datasource.config.ImageDataSourceAutoConfiguration
+com.w3.framework.mybatis.config.ImageMybatisAutoConfiguration

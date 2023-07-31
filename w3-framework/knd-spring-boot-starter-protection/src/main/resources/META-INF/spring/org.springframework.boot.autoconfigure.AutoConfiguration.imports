@@ -1,2 +1,0 @@
-com.knd.framework.protection.idempotent.config.ImageIdempotentConfiguration
-com.knd.framework.protection.lock4j.config.ImageLock4jConfiguration

@@ -44,7 +44,7 @@ spring:
       primary: master
       datasource:
         master:
-          name: knd-image
+          name: w3-image
           url: jdbc:mysql://192.168.1.100:3306/${spring.datasource.dynamic.datasource.master.name}?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true # MySQL Connector/J 8.X 连接的示例
           #          url: jdbc:mysql://192.168.1.100:3306/${spring.datasource.dynamic.datasource.master.name}?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=CTT # MySQL Connector/J 5.X 连接的示例
           #          url: jdbc:postgresql://192.168.1.100:5432/${spring.datasource.dynamic.datasource.slave.name} # PostgreSQL 连接的示例
@@ -55,7 +55,7 @@ spring:
         #          username: sa
         #          password: JSm:g(*%lU4ZAkz06cd52KqT3)i1?H7W
         slave: # 模拟从库，可根据自己需要修改
-          name: knd-image
+          name: w3-image
           url: jdbc:mysql://192.168.1.100:3306/${spring.datasource.dynamic.datasource.slave.name}?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true # MySQL Connector/J 8.X 连接的示例
           #          url: jdbc:mysql://192.168.1.100:3306/${spring.datasource.dynamic.datasource.slave.name}?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=CTT # MySQL Connector/J 5.X 连接的示例
           #          url: jdbc:postgresql://192.168.1.100:5432/${spring.datasource.dynamic.datasource.slave.name} # PostgreSQL 连接的示例
@@ -149,16 +149,16 @@ logging:
     name: ${user.home}/logs/${spring.application.name}.log # 日志文件名，全路径
   level:
     # 配置自己写的 MyBatis Mapper 打印日志
-    com.knd.module.bpm.dal.mysql: debug
-    com.knd.module.infra.dal.mysql: debug
-    com.knd.module.infra.dal.mysql.job.JobLogMapper: INFO # 配置 JobLogMapper 的日志级别为 info
-    com.knd.module.pay.dal.mysql: debug
-    com.knd.module.pay.dal.mysql.notify.PayNotifyTaskMapper: INFO # 配置 JobLogMapper 的日志级别为 info
-    com.knd.module.system.dal.mysql: debug
-    com.knd.module.tool.dal.mysql: debug
-    com.knd.module.member.dal.mysql: debug
-    com.knd.module.trade.dal.mysql: debug
-    com.knd.module.promotion.dal.mysql: debug
+    com.w3.module.bpm.dal.mysql: debug
+    com.w3.module.infra.dal.mysql: debug
+    com.w3.module.infra.dal.mysql.job.JobLogMapper: INFO # 配置 JobLogMapper 的日志级别为 info
+    com.w3.module.pay.dal.mysql: debug
+    com.w3.module.pay.dal.mysql.notify.PayNotifyTaskMapper: INFO # 配置 JobLogMapper 的日志级别为 info
+    com.w3.module.system.dal.mysql: debug
+    com.w3.module.tool.dal.mysql: debug
+    com.w3.module.member.dal.mysql: debug
+    com.w3.module.trade.dal.mysql: debug
+    com.w3.module.promotion.dal.mysql: debug
 
 debug: false
 

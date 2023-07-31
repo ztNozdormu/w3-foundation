@@ -182,21 +182,21 @@ ps：核心功能已经实现，正在对接微信小程序中...
 
 ### 模块
 柯尼达框架基础项目  基础的共用的
-名称:knd-foundation
+名称:w3-foundation
 
 | 模块                    | 说明                                                  |
 |-----------------------|-----------------------------------------------------|
-| `knd-dependencies`    | Maven 依赖版本管理                                        |
-| `knd-framework`       | Java 框架拓展                                           |
-| `knd-server`          | (聚合层,应用壳) 管理后台 + 用户 APP 的服务端 DEMO（代码生成和基础模块优化新增实验用） |
-| `knd-module-system`   | 系统功能的 Module 模块                                     |
-| `knd-module-member`   | 会员中心的 Module 模块                                     |
-| `knd-module-infra`    | 基础设施的 Module 模块                                     |
-| `knd-module-bpm`      | 工作流程的 Module 模块                                     |
-| `knd-module-pay`      | 支付系统的 Module 模块                                     |
-| `knd-module-mall`     | 商城系统的 Module 模块                                     |
-| `knd-module-mp`       | 微信公众号的 Module 模块                                    |
-| `knd-module-pacs`     | pacs业务 Module 模块                                    |
+| `w3-dependencies`    | Maven 依赖版本管理                                        |
+| `w3-framework`       | Java 框架拓展                                           |
+| `w3-server`          | (聚合层,应用壳) 管理后台 + 用户 APP 的服务端 DEMO（代码生成和基础模块优化新增实验用） |
+| `w3-module-system`   | 系统功能的 Module 模块                                     |
+| `w3-module-member`   | 会员中心的 Module 模块                                     |
+| `w3-module-infra`    | 基础设施的 Module 模块                                     |
+| `w3-module-bpm`      | 工作流程的 Module 模块                                     |
+| `w3-module-pay`      | 支付系统的 Module 模块                                     |
+| `w3-module-mall`     | 商城系统的 Module 模块                                     |
+| `w3-module-mp`       | 微信公众号的 Module 模块                                    |
+| `w3-module-pacs`     | pacs业务 Module 模块                                    |
 
 柯尼达pacs医院应用项目
 名称：pacs

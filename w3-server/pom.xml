@@ -3,79 +3,79 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.knd</groupId>
-		<artifactId>knd-foundation</artifactId>
+		<groupId>com.w3</groupId>
+		<artifactId>w3-foundation</artifactId>
 		<version>${revision}</version>
 	</parent>
 
-	<artifactId>knd-server</artifactId>
-	<name>knd-server</name>
+	<artifactId>w3-server</artifactId>
+	<name>w3-server</name>
 	<description>
-		后端 Server 的主项目，通过引入需要 knd-module-xxx 的依赖，
+		后端 Server 的主项目，通过引入需要 w3-module-xxx 的依赖，
 		从而实现提供 RESTful API 给 image-ui-admin、image-ui-user 等前端项目。
 		本质上来说，它就是个空壳（容器）！
 	</description>
 
 	<dependencies>
 <!--		<dependency>-->
-<!--			<groupId>com.knd</groupId>-->
+<!--			<groupId>com.w3</groupId>-->
 <!--			<artifactId>yudao-module-member-biz</artifactId>-->
 <!--			<version>${revision}</version>-->
 <!--		</dependency>-->
 		<dependency>
-			<groupId>com.knd</groupId>
-			<artifactId>knd-module-system-impl</artifactId>
+			<groupId>com.w3</groupId>
+			<artifactId>w3-module-system-impl</artifactId>
 			<version>${revision}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.knd</groupId>
-			<artifactId>knd-module-infra-impl</artifactId>
+			<groupId>com.w3</groupId>
+			<artifactId>w3-module-infra-impl</artifactId>
 			<version>${revision}</version>
 		</dependency>
 <!--		<dependency>-->
-<!--			<groupId>com.knd</groupId>-->
+<!--			<groupId>com.w3</groupId>-->
 <!--			<artifactId>yudao-spring-boot-starter-biz-error-code</artifactId>-->
 <!--		</dependency>-->
 
 		<!-- 数据报表 -->
 		<!--        <dependency>-->
-		<!--            <groupId>com.knd</groupId>-->
+		<!--            <groupId>com.w3</groupId>-->
 		<!--            <artifactId>yudao-module-report-biz</artifactId>-->
 		<!--            <version>${revision}</version>-->
 		<!--        </dependency>-->
 		<!-- 工作流 -->
 		<!--        <dependency>-->
-		<!--            <groupId>com.knd</groupId>-->
+		<!--            <groupId>com.w3</groupId>-->
 		<!--            <artifactId>yudao-module-bpm-biz</artifactId>-->
 		<!--            <version>${revision}</version>-->
 		<!--        </dependency>-->
 		<!-- 支付服务 -->
 		<!--        <dependency>-->
-		<!--            <groupId>com.knd</groupId>-->
+		<!--            <groupId>com.w3</groupId>-->
 		<!--            <artifactId>yudao-module-pay-biz</artifactId>-->
 		<!--            <version>${revision}</version>-->
 		<!--        </dependency>-->
 
 		<!-- 微信公众号模块。默认注释，保证编译速度 -->
 		<!--        <dependency>-->
-		<!--            <groupId>com.knd</groupId>-->
+		<!--            <groupId>com.w3</groupId>-->
 		<!--            <artifactId>yudao-module-mp-biz</artifactId>-->
 		<!--            <version>${revision}</version>-->
 		<!--        </dependency>-->
 
 		<!-- 商城相关模块。默认注释，保证编译速度 -->
 		<!--        <dependency>-->
-		<!--            <groupId>com.knd</groupId>-->
+		<!--            <groupId>com.w3</groupId>-->
 		<!--            <artifactId>yudao-module-promotion-biz</artifactId>-->
 		<!--            <version>${revision}</version>-->
 		<!--        </dependency>-->
 		<!--        <dependency>-->
-		<!--            <groupId>com.knd</groupId>-->
+		<!--            <groupId>com.w3</groupId>-->
 		<!--            <artifactId>yudao-module-product-biz</artifactId>-->
 		<!--            <version>${revision}</version>-->
 		<!--        </dependency>-->
 		<!--        <dependency>-->
-		<!--            <groupId>com.knd</groupId>-->
+		<!--            <groupId>com.w3</groupId>-->
 		<!--            <artifactId>yudao-module-trade-biz</artifactId>-->
 		<!--            <version>${revision}</version>-->
 		<!--        </dependency>-->
@@ -87,14 +87,14 @@
 			<optional>true</optional>
 		</dependency>
 <!--		<dependency>-->
-<!--			<groupId>com.knd</groupId>-->
+<!--			<groupId>com.w3</groupId>-->
 <!--			<artifactId>yudao-spring-boot-starter-banner</artifactId>-->
 <!--		</dependency>-->
 
 		<!-- 服务保障相关 -->
 		<dependency>
-			<groupId>com.knd</groupId>
-			<artifactId>knd-spring-boot-starter-protection</artifactId>
+			<groupId>com.w3</groupId>
+			<artifactId>w3-spring-boot-starter-protection</artifactId>
 		</dependency>
 	</dependencies>
 

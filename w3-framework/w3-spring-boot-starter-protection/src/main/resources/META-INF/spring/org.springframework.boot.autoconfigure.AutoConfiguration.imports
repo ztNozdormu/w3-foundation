@@ -1,0 +1,2 @@
+com.w3.framework.protection.idempotent.config.ImageIdempotentConfiguration
+com.w3.framework.protection.lock4j.config.ImageLock4jConfiguration
