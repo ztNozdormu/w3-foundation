@@ -1,0 +1,2 @@
+com.knd.framework.datasource.config.ImageDataSourceAutoConfiguration
+com.knd.framework.mybatis.config.ImageMybatisAutoConfiguration

@@ -1,0 +1,2 @@
+com.knd.framework.security.config.ImageSecurityAutoConfiguration
+com.knd.framework.security.config.ImageWebSecurityConfigurerAdapter

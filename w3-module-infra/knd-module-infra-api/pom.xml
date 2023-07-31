@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.knd</groupId>
+        <artifactId>knd-module-infra</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>knd-module-infra-api</artifactId>
+    <name>${project.artifactId}</name>
+    <packaging>jar</packaging>
+    <description>infra (日志,系统文件)模块 API，暴露给其它模块调用</description>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.knd</groupId>
+            <artifactId>knd-spring-boot-starter-common</artifactId>
+        </dependency>
+        <!-- 参数校验 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <!-- DB 相关 -->
+        <dependency>
+            <groupId>com.knd</groupId>
+            <artifactId>knd-spring-boot-starter-mybatis</artifactId>
+        </dependency>
+        <!-- 代码生成相关 -->
+        <dependency>
+            <groupId>com.knd</groupId>
+            <artifactId>knd-spring-boot-starter-codegen</artifactId>
+        </dependency>
+        <!--三方云服务相关-->
+        <dependency>
+            <groupId>com.knd</groupId>
+            <artifactId>knd-spring-boot-starter-file</artifactId>
+        </dependency>
+        <!-- Job 定时任务相关 -->
+        <dependency>
+            <groupId>com.knd</groupId>
+            <artifactId>knd-spring-boot-starter-job</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

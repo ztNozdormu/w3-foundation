@@ -1,0 +1,2 @@
+com.knd.framework.quartz.config.ImageQuartzAutoConfiguration
+com.knd.framework.quartz.config.ImageAsyncAutoConfiguration
