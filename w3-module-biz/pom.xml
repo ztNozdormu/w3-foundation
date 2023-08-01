@@ -13,5 +13,8 @@
     <description>
         应用业务模块集合
     </description>
+    <modules>
+        <module>w3-module-system-marketdata</module>
+    </modules>
 
 </project>
