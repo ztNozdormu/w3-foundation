@@ -9,7 +9,6 @@ import com.w3.module.system.controller.admin.errorcode.vo.*;
 import com.w3.module.system.convert.errorcode.ErrorCodeConvert;
 import com.w3.module.system.dal.dataobject.errorcode.ErrorCodeDO;
 import com.w3.module.system.service.errorcode.ErrorCodeService;
-import org.apache.skywalking.apm.toolkit.trace.Tag;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;

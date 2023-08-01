@@ -14,7 +14,6 @@ import com.w3.module.system.dal.dataobject.user.AdminUserDO;
 import com.w3.module.system.enums.common.SexEnum;
 import com.w3.module.system.service.dept.DeptService;
 import com.w3.module.system.service.user.AdminUserService;
-import org.apache.skywalking.apm.toolkit.trace.Tag;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;

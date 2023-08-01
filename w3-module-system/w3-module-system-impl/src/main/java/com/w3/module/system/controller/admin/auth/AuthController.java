@@ -19,7 +19,6 @@ import com.w3.module.system.service.permission.RoleService;
 import com.w3.module.system.service.social.SocialUserService;
 import com.w3.module.system.service.user.AdminUserService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.skywalking.apm.toolkit.trace.Tag;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 

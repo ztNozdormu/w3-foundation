@@ -8,7 +8,6 @@ import com.w3.framework.protection.idempotent.core.keyresolver.impl.ExpressionId
 import com.w3.framework.protection.idempotent.core.redis.IdempotentRedisDAO;
 import com.w3.framework.redis.config.ImageRedisAutoConfiguration;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
-import org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.redis.core.StringRedisTemplate;
 

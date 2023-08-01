@@ -12,7 +12,6 @@ import com.w3.module.system.service.dept.DeptService;
 import com.w3.module.system.service.dept.PostService;
 import com.w3.module.system.service.user.AdminUserService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.skywalking.apm.toolkit.trace.Tag;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;

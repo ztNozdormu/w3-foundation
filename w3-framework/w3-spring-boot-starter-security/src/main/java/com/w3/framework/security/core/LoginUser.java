@@ -4,7 +4,6 @@ import cn.hutool.core.map.MapUtil;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.w3.framework.common.enums.UserTypeEnum;
 import lombok.Data;
-import lombok.experimental.Accessors;
 
 import java.util.HashMap;
 import java.util.List;

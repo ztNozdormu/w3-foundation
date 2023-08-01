@@ -1,6 +1,5 @@
 package com.w3.module.system.service.user;
 
-import cn.hutool.core.util.RandomUtil;
 import com.w3.framework.common.enums.CommonStatusEnum;
 import com.w3.framework.common.exception.ServiceException;
 import com.w3.framework.common.pojo.PageResult;

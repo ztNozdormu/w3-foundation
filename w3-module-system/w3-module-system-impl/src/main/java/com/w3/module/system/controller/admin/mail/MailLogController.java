@@ -8,7 +8,6 @@ import com.w3.module.system.controller.admin.mail.vo.log.MailLogRespVO;
 import com.w3.module.system.convert.mail.MailLogConvert;
 import com.w3.module.system.dal.dataobject.mail.MailLogDO;
 import com.w3.module.system.service.mail.MailLogService;
-import org.apache.skywalking.apm.toolkit.trace.Tag;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

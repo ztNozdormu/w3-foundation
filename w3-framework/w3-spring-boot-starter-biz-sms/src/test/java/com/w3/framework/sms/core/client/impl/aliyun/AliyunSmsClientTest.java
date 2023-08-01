@@ -21,7 +21,6 @@ import com.w3.framework.sms.core.enums.SmsFrameworkErrorCodeConstants;
 import com.w3.framework.sms.core.enums.SmsTemplateAuditStatusEnum;
 import com.w3.framework.sms.core.property.SmsChannelProperties;
 import com.w3.framework.test.core.ut.BaseMockitoUnitTest;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentMatcher;
 import org.mockito.InjectMocks;
@@ -186,8 +185,8 @@ public class AliyunSmsClientTest extends BaseMockitoUnitTest {
         // 断言
         assertEquals(ex.getErrCode(), result.getApiCode());
         assertEquals(ex.getErrMsg(), result.getApiMsg());
-        Assertions.assertEquals(SmsFrameworkErrorCodeConstants.SMS_API_PARAM_ERROR.getCode(), result.getCode());
-        Assertions.assertEquals(SmsFrameworkErrorCodeConstants.SMS_API_PARAM_ERROR.getMsg(), result.getMsg());
+        assertEquals(SmsFrameworkErrorCodeConstants.SMS_API_PARAM_ERROR.getCode(), result.getCode());
+        assertEquals(SmsFrameworkErrorCodeConstants.SMS_API_PARAM_ERROR.getMsg(), result.getMsg());
         assertEquals(ex.getRequestId(), result.getApiRequestId());
     }
 

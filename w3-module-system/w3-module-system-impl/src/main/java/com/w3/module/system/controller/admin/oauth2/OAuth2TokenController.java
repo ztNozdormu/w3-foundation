@@ -10,7 +10,6 @@ import com.w3.module.system.dal.dataobject.oauth2.OAuth2AccessTokenDO;
 import com.w3.module.system.enums.logger.LoginLogTypeEnum;
 import com.w3.module.system.service.auth.AdminAuthService;
 import com.w3.module.system.service.oauth2.OAuth2TokenService;
-import org.apache.skywalking.apm.toolkit.trace.Tag;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 

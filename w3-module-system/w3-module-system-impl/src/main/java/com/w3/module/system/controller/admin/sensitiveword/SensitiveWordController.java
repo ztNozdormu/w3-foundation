@@ -9,7 +9,6 @@ import com.w3.module.system.controller.admin.sensitiveword.vo.*;
 import com.w3.module.system.convert.sensitiveword.SensitiveWordConvert;
 import com.w3.module.system.dal.dataobject.sensitiveword.SensitiveWordDO;
 import com.w3.module.system.service.sensitiveword.SensitiveWordService;
-import org.apache.skywalking.apm.toolkit.trace.Tag;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;

@@ -7,7 +7,6 @@ import com.w3.module.system.controller.admin.permission.vo.menu.*;
 import com.w3.module.system.convert.permission.MenuConvert;
 import com.w3.module.system.dal.dataobject.permission.MenuDO;
 import com.w3.module.system.service.permission.MenuService;
-import org.apache.skywalking.apm.toolkit.trace.Tag;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;

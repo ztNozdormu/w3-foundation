@@ -9,7 +9,6 @@ import com.w3.module.system.controller.admin.tenant.vo.tenant.*;
 import com.w3.module.system.convert.tenant.TenantConvert;
 import com.w3.module.system.dal.dataobject.tenant.TenantDO;
 import com.w3.module.system.service.tenant.TenantService;
-import org.apache.skywalking.apm.toolkit.trace.Tag;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 

@@ -9,7 +9,6 @@ import com.w3.module.system.controller.admin.notice.vo.NoticeRespVO;
 import com.w3.module.system.controller.admin.notice.vo.NoticeUpdateReqVO;
 import com.w3.module.system.convert.notice.NoticeConvert;
 import com.w3.module.system.service.notice.NoticeService;
-import org.apache.skywalking.apm.toolkit.trace.Tag;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;

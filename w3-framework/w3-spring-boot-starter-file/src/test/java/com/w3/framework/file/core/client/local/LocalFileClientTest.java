@@ -2,7 +2,6 @@ package com.w3.framework.file.core.client.local;
 
 import cn.hutool.core.io.resource.ResourceUtil;
 import cn.hutool.core.util.IdUtil;
-import com.w3.framework.file.core.client.local.LocalFileClient;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
