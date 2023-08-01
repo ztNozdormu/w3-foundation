@@ -18,7 +18,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.util.PathMatcher;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import static com.w3.framework.web.config.ImageWebAutoConfiguration.createFilterBean;
+import static com.w3.framework.web.config.W3WebAutoConfiguration.createFilterBean;
 
 @AutoConfiguration
 @EnableConfigurationProperties(XssProperties.class)

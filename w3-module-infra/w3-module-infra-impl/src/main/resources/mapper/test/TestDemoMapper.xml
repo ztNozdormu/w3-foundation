@@ -9,7 +9,7 @@
         文档可见：https://www.iocoder.cn/MyBatis/x-plugins/
      -->
 
-    <select id="selectList2" resultType="com.w3.module.infra.dal.dataobject.test.TestDemoDO">
+    <select id="selectList2" resultType="com.w3.module.infra.api.dal.dataobject.test.TestDemoDO">
         SELECT * FROM infra_test_demo
     </select>
 

@@ -2,7 +2,7 @@ package com.w3.framework.test.core.ut;
 
 import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure;
 import com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration;
-import com.w3.framework.mybatis.config.ImageMybatisAutoConfiguration;
+import com.w3.framework.mybatis.config.W3MybatisAutoConfiguration;
 import com.w3.framework.test.config.SqlInitializationTestConfiguration;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration;
@@ -31,7 +31,7 @@ public class BaseDbAndRedisUnitTest {
             DruidDataSourceAutoConfigure.class, // Druid 自动配置类
             SqlInitializationTestConfiguration.class, // SQL 初始化
             // MyBatis 配置类
-            ImageMybatisAutoConfiguration.class, // 自己的 MyBatis 配置类
+            W3MybatisAutoConfiguration.class, // 自己的 MyBatis 配置类
             MybatisPlusAutoConfiguration.class, // MyBatis 的自动配置类
 
             // Redis 配置类
