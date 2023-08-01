@@ -19,7 +19,6 @@
     <modules>
         <module>w3-module-system-api</module>
         <module>w3-module-system-impl</module>
-        <module>w3-module-system-impl-single</module>
     </modules>
 
 </project>
