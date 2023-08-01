@@ -32,9 +32,11 @@
         <module>w3-framework</module>
         <!-- Server 前后分离主项目(聚合各个业务module) -->
         <module>w3-server</module>
-        <!-- 各种业务module拓展 -->
+        <!-- 各种基础业务module拓展 -->
         <module>w3-module-infra</module>
         <module>w3-module-system</module>
+        <!-- 各种应用业务module组 -->
+        <module>w3-module-biz</module>
     </modules>
 
     <dependencyManagement>
