@@ -4,19 +4,21 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.w3</groupId>
-        <artifactId>w3-foundation</artifactId>
+        <artifactId>w3-module-biz-marketdata</artifactId>
         <version>${revision}</version>
     </parent>
-    <artifactId>w3-module-biz</artifactId>
+    <artifactId>w3-module-biz-marketdata-impl</artifactId>
     <name>${project.artifactId}</name>
-    <packaging>pom</packaging>
-    <description>
-        应用业务模块集合
-    </description>
+    <packaging>jar</packaging>
+    <description>市场行情数据impl模块</description>
 
-    <modules>
-        <!--市场行情应用实现模块-->
-        <module>w3-module-biz-marketdata</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.w3</groupId>
+            <artifactId>w3-module-biz-marketdata-api</artifactId>
+            <version>${revision}</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

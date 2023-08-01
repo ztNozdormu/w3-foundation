@@ -7,9 +7,13 @@
 		<artifactId>w3-module-biz</artifactId>
 		<version>${revision}</version>
 	</parent>
-	<artifactId>w3-module-system-marketdata</artifactId>
+	<artifactId>w3-module-biz-marketdata</artifactId>
 	<name>${project.artifactId}</name>
 	<packaging>pom</packaging>
 	<description>行情数据采集模块</description>
 
+	<modules>
+		<module>w3-module-biz-marketdata-api</module>
+		<module>w3-module-biz-marketdata-impl</module>
+	</modules>
 </project>

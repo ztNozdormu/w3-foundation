@@ -24,6 +24,11 @@
 <!--		</dependency>-->
 		<dependency>
 			<groupId>com.w3</groupId>
+			<artifactId>w3-module-biz-marketdata-api</artifactId>
+			<version>${revision}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.w3</groupId>
 			<artifactId>w3-module-system-impl</artifactId>
 			<version>${revision}</version>
 		</dependency>
