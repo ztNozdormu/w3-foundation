@@ -28,7 +28,8 @@
         <redisson.version>3.18.0</redisson.version>
         <ehcache.version>3.10.8</ehcache.version>
         <dm8.jdbc.version>8.1.2.141</dm8.jdbc.version>
-        <clickhouse.version>0.4.6</clickhouse.version>
+        <clickhouse.version>0.3.2</clickhouse.version>
+<!--        <clickhouse.version>0.4.6</clickhouse.version>-->
         <!-- 服务保障相关 -->
         <lock4j.version>2.2.3</lock4j.version>
         <resilience4j.version>1.7.1</resilience4j.version>
@@ -186,17 +187,16 @@
                 <artifactId>mybatis-plus-join-boot-starter</artifactId>
                 <version>${mybatis-plus-join-boot-starter.version}</version>
             </dependency>
-
-<!--            <dependency>-->
-<!--                <groupId>ru.yandex.clickhouse</groupId>-->
-<!--                <artifactId>clickhouse-jdbc</artifactId>-->
-<!--                <version>${clickhouse.version}</version>-->
-<!--            </dependency>-->
             <dependency>
-                <groupId>com.clickhouse</groupId>
+                <groupId>ru.yandex.clickhouse</groupId>
                 <artifactId>clickhouse-jdbc</artifactId>
                 <version>${clickhouse.version}</version>
             </dependency>
+<!--            <dependency>-->
+<!--                <groupId>com.clickhouse</groupId>-->
+<!--                <artifactId>clickhouse-jdbc</artifactId>-->
+<!--                <version>${clickhouse.version}</version>-->
+<!--            </dependency>-->
             <dependency>
                 <groupId>com.w3</groupId>
                 <artifactId>w3-spring-boot-starter-ehcache</artifactId>
