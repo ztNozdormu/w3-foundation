@@ -21,6 +21,7 @@
         <module>w3-spring-boot-starter-biz-operatelog</module>
         <module>w3-spring-boot-starter-excel</module>
         <module>w3-spring-boot-starter-mybatis</module>
+        <module>w3-spring-boot-starter-clickhouse</module>
         <module>w3-spring-boot-starter-security</module>
         <module>w3-spring-boot-starter-biz-data-permission</module>
         <module>w3-spring-boot-starter-biz-tenant</module>
