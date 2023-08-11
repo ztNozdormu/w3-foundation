@@ -1,2 +1,0 @@
-org.springframework.boot.env.EnvironmentPostProcessor=\
-com.w3.framework.mybatis.config.IdTypeEnvironmentPostProcessor
