@@ -3,6 +3,10 @@ package com.w3.framework.clickhouse.config;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
+import org.springframework.boot.autoconfigure.cache.CacheProperties;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Primary;
 import ru.yandex.clickhouse.ClickHouseConnection;
 import ru.yandex.clickhouse.ClickHouseDataSource;
 import ru.yandex.clickhouse.settings.ClickHouseProperties;
@@ -18,65 +22,28 @@ import java.util.Map;
  * SQL方式执行
  */
 @AutoConfiguration
+@EnableConfigurationProperties({ClickhouseProperties.class})
 @Data
 public class ClickHouseConfig {
 
-    public static String address;
+    private static ClickHouseDataSource clickHouseDataSource;
 
-    public static String username;
-
-    public static String password;
-
-    public static String dbName;
-
-    public static Integer socketTimeout;
-
-    @Value("${spring.oneself-custom.clickhouse.address}")
-    public void setClickhouseAddress(String address) {
-        ClickHouseConfig.address = address;
-    }
-
-    @Value("${spring.oneself-custom.clickhouse.username}")
-    public void setClickhouseUsername(String username) {
-        ClickHouseConfig.username = username;
-    }
-
-    @Value("${spring.oneself-custom.clickhouse.password}")
-    public void setClickhousePassword(String password) {
-        ClickHouseConfig.password = password;
-    }
-
-    @Value("${spring.oneself-custom.clickhouse.dbName}")
-    public void setClickhouseDB(String dbName) {
-        ClickHouseConfig.dbName = dbName;
-    }
-
-    @Value("${spring.oneself-custom.clickhouse.socketTimeout}")
-    public void setClickhouseSocketTimeout(Integer socketTimeout) {
-        ClickHouseConfig.socketTimeout = socketTimeout;
-    }
-    public static Connection getConn() {
-        ClickHouseConnection conn;
+    @Bean
+    public ClickHouseDataSource redisCacheConfiguration(ClickhouseProperties clickhouseProperties) {
         ClickHouseProperties properties = new ClickHouseProperties();
-        properties.setUser(username);
-        properties.setPassword(password);
-        properties.setDatabase(dbName);
-        properties.setSocketTimeout(socketTimeout);
-        ClickHouseDataSource clickHouseDataSource = new ClickHouseDataSource(address, properties);
-        try {
-            conn = clickHouseDataSource.getConnection();
-            return conn;
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
-        return null;
+        properties.setUser(clickhouseProperties.username);
+        properties.setPassword(clickhouseProperties.password);
+        properties.setDatabase(clickhouseProperties.dbName);
+        properties.setSocketTimeout(clickhouseProperties.socketTimeout);
+        clickHouseDataSource = new ClickHouseDataSource(clickhouseProperties.address, properties);
+        return clickHouseDataSource;
     }
 
-    public static  List<Map<String, String>> exeSql(String sql) {
+    public static List<Map<String, String>> exeSql(String sql) {
         System.out.println("cliockhouse 执行sql：" + sql);
-        Connection connection = getConn();
+        Connection connection = null;
         try {
+            connection = clickHouseDataSource.getConnection();
             assert connection != null;
             Statement statement = connection.createStatement();
             ResultSet results = statement.executeQuery(sql);
