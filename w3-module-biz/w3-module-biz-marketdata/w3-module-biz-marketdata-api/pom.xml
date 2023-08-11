@@ -24,6 +24,11 @@
             <artifactId>spring-boot-starter-validation</artifactId>
             <optional>true</optional>
         </dependency>
+        <!--clickhouse-->
+        <dependency>
+            <groupId>com.w3</groupId>
+            <artifactId>w3-spring-boot-starter-clickhouse</artifactId>
+        </dependency>
     </dependencies>
 
 

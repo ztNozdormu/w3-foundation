@@ -1,7 +1,7 @@
 package com.w3.framework.clickhouse.config;
 
 import lombok.Data;
-import lombok.Value;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import ru.yandex.clickhouse.ClickHouseConnection;
 import ru.yandex.clickhouse.ClickHouseDataSource;
