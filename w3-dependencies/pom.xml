@@ -199,6 +199,11 @@
 <!--            </dependency>-->
             <dependency>
                 <groupId>com.w3</groupId>
+                <artifactId>w3-spring-boot-starter-clickhouse</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.w3</groupId>
                 <artifactId>w3-spring-boot-starter-ehcache</artifactId>
                 <version>${revision}</version>
             </dependency>
