@@ -18,6 +18,51 @@
             <artifactId>w3-module-biz-marketdata-api</artifactId>
             <version>${revision}</version>
         </dependency>
+
+        <!-- 业务组件 -->
+        <dependency>
+            <groupId>com.w3</groupId>
+            <artifactId>w3-spring-boot-starter-biz-operatelog</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.w3</groupId>
+            <artifactId>w3-spring-boot-starter-biz-dict</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.w3</groupId>
+            <artifactId>w3-spring-boot-starter-biz-data-permission</artifactId>
+        </dependency>
+
+        <!-- Web 相关 -->
+        <dependency>
+            <groupId>com.w3</groupId>
+            <artifactId>w3-spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+
+        <!-- Job 定时任务相关 -->
+        <dependency>
+            <groupId>com.w3</groupId>
+            <artifactId>w3-spring-boot-starter-job</artifactId>
+        </dependency>
+
+        <!-- Test 测试相关 -->
+        <dependency>
+            <groupId>com.w3</groupId>
+            <artifactId>w3-spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- 工具类相关 -->
+        <dependency>
+            <groupId>com.w3</groupId>
+            <artifactId>w3-spring-boot-starter-excel</artifactId>
+        </dependency>
     </dependencies>
 
 

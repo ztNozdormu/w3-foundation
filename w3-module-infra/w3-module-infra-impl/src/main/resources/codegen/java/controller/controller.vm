@@ -76,7 +76,7 @@ public class ${sceneEnum.prefixClass}${table.className}Controller {
      * @return
      */
     @DeleteMapping("/delete")
-    @Operation(summary = "删除${table.classComment}")
+##    @Operation(summary = "删除${table.classComment}")
 ##    @Parameter(name = "id", description = "编号", required = true)
 #if ($sceneEnum.scene == 1)    @PreAuthorize("@ss.hasPermission('${permissionPrefix}:delete')")#end
 
@@ -136,7 +136,7 @@ public class ${sceneEnum.prefixClass}${table.className}Controller {
      * @throws IOException
      */
     @GetMapping("/export-excel")
-    @Operation(summary = "导出${table.classComment} Excel")
+##  @Operation(summary = "导出${table.classComment} Excel")
 #if ($sceneEnum.scene == 1)    @PreAuthorize("@ss.hasPermission('${permissionPrefix}:export')")#end
 
     @OperateLog(type = EXPORT)

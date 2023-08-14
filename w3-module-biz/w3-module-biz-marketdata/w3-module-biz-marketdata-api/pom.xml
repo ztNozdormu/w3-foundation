@@ -29,6 +29,11 @@
             <groupId>com.w3</groupId>
             <artifactId>w3-spring-boot-starter-clickhouse</artifactId>
         </dependency>
+        <!-- DB 相关 -->
+        <dependency>
+            <groupId>com.w3</groupId>
+            <artifactId>w3-spring-boot-starter-mybatis</artifactId>
+        </dependency>
     </dependencies>
 
 
