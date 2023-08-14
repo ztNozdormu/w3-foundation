@@ -15,6 +15,7 @@ public interface ErrorCodeConstants {
 
     // ========== 代币信息 1003000001 ==========
     ErrorCode TOKEN_INFO_NOT_EXISTS = new ErrorCode(1003000001, "代币信息不存在");
-
+    // ========== 代币排名信息 1003000002 ==========
+    ErrorCode TOKEN_RANK_NOT_EXISTS = new ErrorCode(1003000002, "代币排名信息不存在");
 
 }
