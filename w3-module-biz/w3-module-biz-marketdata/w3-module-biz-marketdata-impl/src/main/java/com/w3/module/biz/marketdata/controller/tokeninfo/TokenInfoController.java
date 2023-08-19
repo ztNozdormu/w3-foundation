@@ -29,7 +29,7 @@ import static com.w3.framework.operatelog.core.enums.OperateTypeEnum.*;
 * @author auto
 */
 @RestController
-@RequestMapping("/mk/token-info")
+@RequestMapping("/market/token-info")
 @Validated
 public class TokenInfoController {
 

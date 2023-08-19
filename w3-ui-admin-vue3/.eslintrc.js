@@ -64,6 +64,6 @@ module.exports = defineConfig({
         math: 'always'
       }
     ],
-    'vue/multi-word-component-names': 'off'
+    'vue/multi-word-component-names': 'off',
   }
 })

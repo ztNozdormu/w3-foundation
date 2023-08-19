@@ -30,7 +30,7 @@ import static com.w3.framework.operatelog.core.enums.OperateTypeEnum.*;
 * @author auto
 */
 @RestController
-@RequestMapping("/mk/token-rank")
+@RequestMapping("/market/token-rank")
 @Validated
 public class TokenRankController {
 
